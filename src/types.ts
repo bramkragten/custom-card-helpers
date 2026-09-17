@@ -45,7 +45,7 @@ export interface FloorRegistryEntry {
 
 /** One part of a composed entity name, as accepted by `formatEntityName`. */
 export type EntityNameItem =
-  | { type: "entity" | "device" | "parent_device" | "area" | "floor" }
+  | { type: "entity" | "device" | "area" | "floor" }
   | { type: "text"; text: string };
 
 export interface EntityNameOptions {
